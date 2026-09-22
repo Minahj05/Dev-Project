@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head >
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Minhaj_Efti</title>
+    </head>
+    <body>
+        <div class="flex items-center px-8 py-4 bg-blue-200">
+            <div class="bg-blue-200 text-center mr-auto">
+             <h3 class="text-4xl font-bold  "> Minhaj_Efti</h3>
+            
+             </div>
+
+            <div class="h-menu">
+                <form>
+              <ul class="flex gap-4 text-4x1 ">
+                <li><a href="#" class="hover:text-red-600 font-bold "> About </a></li>
+                <a href="#" class="hover:text-red-600 font-bold "> Experience</a></li>
+                <li><a href="#" class="hover:text-red-600 font-bold "> Contact </a></li>
+                <li><a href="#" class="hover:text-red-600 font-bold "> Projects </a></li>
+                <li><a href="#" class="hover:text-red-600 font-bold "> Skills </a></li>
+              
+            </ul>
+                </form>
+            
+
+             </div>
+
+             </div>
+        <!-- hro section -->
+
+       
+        <section class="flex items-center px-10 py-20 bg-green-200">
+
+        <!-- Left Side: Introduction -->
+        <div class="w-1/2 px-16">
+
+            <h2 class="text-5xl font-bold">
+                Hi, I'm Minhajul Osman Efti.
+            </h2>
+
+            <p class="text-2xl mt-5">
+                A Computer Science Engineer.Learner.
+            </p>
+
+        </div>
+
+
+        <!-- Right Side: Photo -->
+        <div class="w-1/2 flex justify-center">
+
+            <img
+                src="my_photo.jpg"
+                alt="Minhajul Osman Efti"
+                class="w-64 h-64 object-cover rounded-full"
+            >
+
+        </div>
+
+    </section>
+
+
+
+      <!-- ================= EXPERIENCE SECTION ================= -->
+
+    <section
+        id="experience"
+        class="px-10 py-12 bg-gray-100"
+    >
+
+        <h2 class="text-4xl font-bold mb-6">
+            Experience
+        </h2>
+
+        <!-- Input -->
+        <input
+            type="text"
+            id="experienceInput"
+            placeholder="Enter your experience"
+            class="border border-gray-400 p-2 rounded w-80"
+        >
+
+        <button
+            onclick="addExperience()"
+            class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"
+        >
+            Add Experience
+        </button>
+
+        <!-- Experience List -->
+        <div id="experienceList" class="mt-6">
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS SECTION ================= -->
+
+    <section
+        id="projects"
+        class="px-10 py-12"
+    >
+
+        <h2 class="text-4xl font-bold mb-6">
+            Projects
+        </h2>
+
+        <!-- Input -->
+        <input
+            type="text"
+            id="projectInput"
+            placeholder="Enter your project"
+            class="border border-gray-400 p-2 rounded w-80"
+        >
+
+        <button
+            onclick="addProject()"
+            class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"
+        >
+            Add Project
+        </button>
+
+        <!-- Project List -->
+        <div id="projectList" class="mt-6">
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS SECTION ================= -->
+
+    <section
+        id="skills"
+        class="px-10 py-12 bg-gray-100"
+    >
+
+        <h2 class="text-4xl font-bold mb-6">
+            Skills
+        </h2>
+
+        <!-- Input -->
+        <input
+            type="text"
+            id="skillInput"
+            placeholder="Enter your skill"
+            class="border border-gray-400 p-2 rounded w-80"
+        >
+
+        <button
+            onclick="addSkill()"
+            class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"
+        >
+            Add Skill
+        </button>
+
+        <!-- Skill List -->
+        <div id="skillList" class="mt-6">
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT SECTION ================= -->
+
+    <section
+        id="contact"
+        class="px-10 py-12"
+    >
+
+        <h2 class="text-4xl font-bold mb-4">
+            Contact
+        </h2>
+
+        <p>
+            Email: minhajefti@gmail.com
+        </p>
+
+    </section>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+
+
+       
+    </body>
+</html>
